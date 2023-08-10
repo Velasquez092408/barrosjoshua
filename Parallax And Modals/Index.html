@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Google Fonts CDN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Noto+Serif:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f437f9adcd.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7cenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Compiled And Mininified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="coffeebeks.css">
+    <title>Coffee Beks</title>
+</head>
+<body>
+  <div class="navbar-sec">
+    <nav>
+      <div class="container">
+        <a href="#home" class="brand-logo">
+          <p class="logo">COFFEE BEKS</p>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#featureddrink">Featured Drink</a>
+          </li>
+          <li>
+            <a href="#contactus">Contact Us</a>
+          </li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="home">
+    <div class="container" id="home">
+      <div class="cup">
+        <h1 class="happiness">A Hot Cup of Happiness.</h1>
+        <h3 class="today">Get The Best Coffee Today</h3>
+        <a href="#menu"><button class="btn ordernow">ORDER NOW</button></a>
+      </div>
+    </div>
+  </div>
+  <ul id="slide-out" class="sidenav sidenav-close">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="#menu">Menu</a>
+    </li>
+    <li>
+      <a href="#featureddrink">Featured Drink</a>
+    </li>
+    <li>
+      <a href="#contactus">Contact Us</a>
+    </li>
+  </ul>
+
+  <div id="featureddrink">
+    <div class="container">
+      <h1 class="style">Turn up your Summer : Best Coffee in the World</h1>
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card element z-depth-3 materialboxed">
+            <div class="card-image">
+              <img src="Coffee2.jpg" alt=""
+              class="responsive img">
+              <span class="card-title">Treat</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="card element z-depth-3 materialboxed">
+            <div class="card-image">
+              <img src="Coffee3.jpg" alt=""
+              class="responsive img">
+              <span class="card-title">Relax</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="card element z-depth-3 materialboxed">
+            <div class="card-image">
+              <img src="Coffee4.jpg" alt=""
+              class="responsive img">
+              <span class="card-title">Taste</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <div class="card element z-depth-3 materialboxed">
+            <div class="card-image">
+              <img src="Coffee5.jpg" alt=""
+              class="responsive img">
+              <span class="card-title">Feel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mug">
+    <h3 class="styles center-align">TREAT, RELAX, TASTE & FEEL</h3>
+  </div>
+  <div class="container coffee-div" id="menu">
+    <h1 class="center-align h1-style">Get your Best Coffee</h1>
+    <p class="coffee-item center-align flow-text">Turn up your Summer with the best coffee in the world</p>
+    <br><br>
+    <div class="row">
+      <div class="col s12 m6 l3">
+          <div class="card z-depth-2">
+            <div class="card-image">
+              <img src="Coffee6.jpeg">
+              <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+              href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+              <div class="modal" id="modal1">
+                <div class="modal-content">
+                  <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-content mug-content">
+              <p class="white-text text-darken-2">BLACKPINK Strawberry Choco Cream Frappuccino</p>
+            </div>
+          </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card z-depth-2">
+          <div class="card-image">
+            <img src="Coffee7.jpeg">
+            <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+            href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-content mug-content">
+            <p class="white-text text-darken-2">Almond Butter Latte</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card z-depth-2">
+          <div class="card-image">
+            <img src="Coffee8.jpeg">
+            <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+            href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-content mug-content">
+            <p class="white-text text-darken-2">Almond Butter Coffee Frappuccino</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card z-depth-2">
+          <div class="card-image">
+            <img src="Coffee9.jpeg">
+            <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+            href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-content mug-content">
+            <p class="white-text text-darken-2">Almond White Chocolate Cream Frappuccino</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card z-depth-2">
+          <div class="card-image">
+            <img src="Coffee10.jpeg">
+            <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+            href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-content mug-content">
+            <p class="white-text text-darken-2">Almond Cream Cold Brew</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card z-depth-2">
+          <div class="card-image">
+            <img src="Coffee11.jpg">
+            <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+            href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-content mug-content">
+            <p class="white-text text-darken-2">Hot Brewed Coffee</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card z-depth-2">
+          <div class="card-image">
+            <img src="Coffee12.jpg">
+            <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+            href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-content mug-content">
+            <p class="white-text text-darken-2">Salted Caramel Cold Brew</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card z-depth-2">
+          <div class="card-image">
+            <img src="Coffee13.jpg">
+            <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+            href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card-content mug-content">
+            <p class="white-text text-darken-2">Nitro Vanilla Sweet Cream Cold Brew</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="service">
+    <h1 class="center-align deluxe">Beat the Rainy Seasons with Coffee Deluxe</h1>
+    <h1 class="center-align great">Taste the Great Coffee <span class="green-text">ORDER NOW</span></h1>
+  </div>
+  <br><br><br>
+  <div class="row">
+    <div class="container">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="Coffee15.png" alt=""
+          class="image-grid element">
+          <h5>FREE DELIVERY</h5>
+          <p>Enjoy free delivery on orders above 3 coffee.</p>
+        </div>
+        <div class="grid-item">
+          <img src="Coffee16.png" alt=""
+          class="image-grid element">
+          <h5>RETURN POLICY</h5>
+          <p>Our flexible return policy ensures a stress-free orders experience</p>
+        </div>
+        <div class="grid-item">
+          <img src="Coffee17.png" alt=""
+          class="image-grid element">
+          <h5>DISCOUNTS</h5>
+          <p>Discover amazing deals and discounts that will leave you delighted.</p>
+        </div>
+        <div class="grid-item">
+          <img src="Coffee18.png" alt=""
+          class="image-grid element">
+          <h5>CUSTOMER SUPPORT</h5>
+          <p>Our friendly customer support team is here to assist you every step of the way.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact" id="contactus">
+    <div class="row container">
+      <div class="col s12 m4 l4">
+        <h5 class="contacts">GET HELP</h5>
+        <a href=""><p class="grey-text text-lighten-1">Order Status</p></a>
+        <a href=""><p class="grey-text text-lighten-1"> Delivery</p></a>
+        <a href=""><p class="grey-text text-lighten-1">Returns</p></a>
+        <a href=""><p class="grey-text text-lighten-1">Payment Options</p></a>
+        <a href=""><p class="grey-text text-lighten-1"> Contact Us</p></a>
+      </div>
+      <div class="col s12 m4 l4">
+        <h5 class="contacts">ABOUT US</h5>
+        <a href=""><p class="grey-text text-lighten-1">News</p></a>
+        <a href=""><p class="grey-text text-lighten-1">Careers</p></a>
+        <a href=""><p class="grey-text text-lighten-1">Investors</p></a>
+        <a href=""><p class="grey-text text-lighten-1">Sustainability</p></a>
+      </div>
+      <div class="col s12 m4 l4">
+        <h5 class="contacts">CONTACT US</h5>
+        <a href="" class="White"><i class="fa-brands fa-facebook icon"></i></a>
+        <a href=""><i class="fa-brands fa-twitter icon"></i></a>
+        <a href=""><i class="fa-brands fa-instagram icon"></i></a>
+        <a href=""><i class="fa-brands fa-discord icon"></i></a>
+        <a href=""><i class="fa-brands fa-github icon"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin icon"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JQuery CDN-->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+      $(document).ready(function(){
+  $('.parallax').parallax();
+  $('.modal').modal();
+  $('.slider').slider();
+  $('.materialboxed').materialbox();
+  $('.sidenav').sidenav();
+  });
+  </script>
+
+</body>
+</html>

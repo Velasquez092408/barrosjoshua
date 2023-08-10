@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to right, #fdfdfd, #b67b06);
+}
+h1 {
+    background: linear-gradient(90deg,#3fe000,#fc00ff,#ff00f2);
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+h2 {
+    background: linear-gradient(90deg,#00bde0,#fc00ff);
+    font-family: sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.img-size {
+    width: 40%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    box-shadow: 0 20px 20px #221a8d;
+    border-radius: 8px 8px 6px 6px;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+.Me {
+    background-color: #a30d0d;
+}
+.mark { 
+    background-color:#13da7d;
+    color: black;
+}
+.style {
+    background: linear-gradient(90deg,#fffb00,#ff0055);
+    font-family: sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.style1 {
+    background: linear-gradient(90deg,#53ff03,#ff008c);
+    font-family: sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
